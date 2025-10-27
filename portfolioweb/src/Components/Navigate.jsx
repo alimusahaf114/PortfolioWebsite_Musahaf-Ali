@@ -13,7 +13,7 @@ export default function Navigation({ scrollToSection, activeSection }) {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const menuItems = ['home', 'about', 'projects', 'skills', 'contact'];
+  const menuItems = ['home', 'about', 'projects', 'skills', 'Blog', 'contact'];
 
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 ${
